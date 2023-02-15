@@ -1,5 +1,5 @@
 body {
-    background-color: #995bed;
+    background-color: black;
 
 }
 
@@ -13,7 +13,7 @@ body {
 }
 
 .profile {
-    background-color: rgb(33, 150, 208);
+    background-color: rgb(69, 187, 255);
     width: 400px;
     border-radius: 5px;
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
@@ -22,13 +22,26 @@ body {
     
 }
 
+.name {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+
 .profile-image-adapter {
     text-align: center;
+}
+
+.profile-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
 }
 
 .profile-bio-paragrapher {
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
 }
 .list-style {
     list-style: square;
